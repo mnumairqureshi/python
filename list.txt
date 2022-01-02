@@ -1,0 +1,27 @@
+thislist = []
+for  i in range (5):
+  abc = input ("number : ")
+thislist.append(abc)
+print(thislist)
+  
+
+
+
+===================================
+thislist = ["apple", "banana", "cherry"]
+for i in thislist:
+  print(i)
+
+=======================================
+
+abc = [2,3,4,5,6]
+abc.insert(1,9)
+print (abc)
+
+===========================================
+abc = [2,3,4,5,6]
+abc.append(2)
+print (abc)
+
+
+======================================

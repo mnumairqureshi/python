@@ -1,0 +1,28 @@
+print("Ali Class 01")
+sub1 = int(input("Math :"))
+sub2 = int(input("Eng :"))
+sub3 = int(input("Urdu :"))
+sub4 = int(input("Sci :"))
+sub5 = int(input("Phy :"))
+
+total = sub1+sub2+sub3+sub4+sub5
+avg = total/5
+
+print("Total Marks 500")
+print("Obtain Marks", total)
+print("Percentage" , avg ,"%")
+    
+if avg>=91 and avg<=100:
+    print("Grade A1")
+elif avg>=81 and avg<91:
+    print("Grade A")
+elif avg>=71 and avg<81:
+    print("Grade B")
+elif avg>=51 and avg<61:
+    print("Grade C")
+elif avg>=33 and avg<41:
+    print("Grade D")
+elif avg>=0 and avg<=32.9:
+    print("Fail")
+else:
+    print("Invalid Input!")

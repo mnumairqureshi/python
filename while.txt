@@ -1,0 +1,15 @@
+abc = input("Enter Email : ")
+while abc == "numair@example.com1":
+  print("Try Again")
+  abc = input ("numair@example.com")
+
+=============================================================
+
+
+
+
+abc = input("Yes Or No ")
+while abc == "yes":
+
+  print("COntinue")
+  abc = input ("yes or no")
